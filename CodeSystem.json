@@ -1,0 +1,32 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "custom-nutrients",
+    "url": "https://summitindins.com/s/CodeSystem.json",
+    "version": "1.0.0",
+    "name": "CustomNutrientCodeSystem",
+    "title": "Custom Nutrient Code System",
+    "status": "active",
+    "experimental": false,
+    "date": "2025-03-19",
+    "publisher": "Summit Independent Insurance Agency",
+    "description": "A CodeSystem defining custom nutrient codes not present in the official NutritionProduct valueset.",
+    "caseSensitive": true,
+    "content": "complete",
+    "concept": [
+      {
+        "code": "betaine-anhydrous",
+        "display": "Betaine Anhydrous",
+        "definition": "A form of betaine used as a nutrient."
+      },
+      {
+        "code": "calcium-citrate",
+        "display": "Calcium Citrate",
+        "definition": "A calcium salt used as a dietary supplement."
+      },
+      {
+        "code": "calcium-laurate",
+        "display": "Calcium Laurate",
+        "definition": "A calcium salt of lauric acid used in nutritional supplements."
+      }
+    ]
+  }
