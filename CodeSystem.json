@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "custom-nutrients",
-  "url": "https://raw.githubusercontent.com/efult1903/CodeSystem/9cec12c44a7b31ad49531db54a5b5453988d683d/CodeSystem.json",
+  "url": "https://efult1903.github.io/CodeSystem/CodeSystem.json",
   "version": "1.0.0",
   "name": "CustomNutrientCodeSystem",
   "title": "Custom Nutrient Code System",
