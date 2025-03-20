@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "custom-serving-size",
+  "url": "https://efult1903.github.io/CodeSystem/ServingSizeCodeSystem.json",
+  "version": "1.0.0",
+  "name": "ServingSizeCodeSystem",
+  "title": "Serving Size Code System",
+  "status": "active",
+  "experimental": false,
+  "date": "2025-03-20",
+  "publisher": "Summit Independent Insurance Agency",
+  "description": "A CodeSystem defining custom nutrient codes not present in the official MedicationKnowledge valueset.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "capsule",
+      "display": "Capsule",
+      "definition": "A solid dosage form in which the active medicament are enclosed in either a hard or soft soluble container or shell."
+    },
+    {
+      "code": "lozenge",
+      "display": "Lozenge",
+      "definition": "A solid dosage form that is intended to be dissolved or disintegrated slowly in the mouth."
+    }
+  ]
+}
