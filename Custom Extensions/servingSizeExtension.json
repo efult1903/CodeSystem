@@ -1,0 +1,29 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://summitindins.com/hl7-fhir-custom-extension-index/serving-size",
+  "version": "1.0.0",
+  "name": "ExtendedMedicationKnowledgeCharacteristic",
+  "status": "active",
+  "publisher": "Summit Independent Insurance Agency",
+  "description": "An extension of the official MedicationKnowledge characteristic valueset including additional characteristics of a product.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://hl7.org/fhir/valueset-medicationknowledge-characteristic.html"
+      },
+      {
+        "system": "https://efult1903.github.io/CodeSystem/ServingSizeCodeSystem.json",
+        "concept": [
+          {
+            "code": "capsule",
+            "display": "Capsule"
+          },
+          {
+            "code": "lozenge",
+            "display": "Lozenge"
+          }
+        ]
+      }
+    ]
+  }
+}

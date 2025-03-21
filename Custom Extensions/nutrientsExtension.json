@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://summitindins.com/hl7-fhir-custom-extension-index/nutrients",
+  "version": "1.0.0",
+  "name": "ExtendedNutritionProductNutrient",
+  "status": "active",
+  "publisher": "Summit Independent Insurance Agency",
+  "description": "An extension of the official NutritionProduct nutrient valueset including additional nutrients of supplement products.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html"
+      },
+      {
+        "system": "https://efult1903.github.io/CodeSystem/CustomNutrientCodeSystem.json",
+        "concept": [
+          {
+            "code": "betaine-anhydrous",
+            "display": "Betaine Anhydrous"
+          },
+          {
+            "code": "calcium-citrate",
+            "display": "Calcium Citrate"
+          },
+          {
+            "code": "calcium-laurate",
+            "display": "Calcium Laurate"
+          },
+          {
+            "code": "natural-berry",
+            "display": "Natural Berry"
+          },
+          {
+            "code": "flavor",
+            "display": "Flavor"
+          },
+          {
+            "code": "malic-acid",
+            "display": "Malic acid"
+          },
+          {
+            "code": "rice-flour",
+            "display": "Rice Flour"
+          },
+          {
+            "code": "manganese",
+            "display": "Manganese"
+          },
+          {
+            "code": "chromium",
+            "display": "Chromium"
+          }
+        ]
+      }
+    ]
+  }
+}
