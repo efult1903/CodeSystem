@@ -1,0 +1,190 @@
+{
+  "resourceType": "NutritionProduct",
+  "id": "nuphoria-nerve-guard",
+  "status": "active",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Thorne Methyl-Guard Plus Nutrition Product</div>"
+  },
+  "productName": "NUPHORIA cm® Nerve Defense",
+  "extension": [
+    {
+      "url": "https://summitindins.com/hl7-fhir-custom-extension-index/serving-size",
+      "valueString": "capsule",
+      "amount": 6
+    },
+    {
+      "url": "servingsPerContainer",
+      "valueString": 30
+    },
+    {
+      "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Vitamin E"
+        },
+        {
+          "url": "form",
+          "valueString": "D-Alpha Tocopheryl Succinate"
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 525
+        },
+        {
+          "url": "unit",
+          "valueString": "mg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueDecimal": 3500
+        }
+      ]
+    },
+    {
+      "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Acetylcysteine-Carnitine HCl"
+        },
+        {
+          "url": "form",
+          "valueString": null
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 1500
+        },
+        {
+          "url": "unit",
+          "valueString": "mg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueDecimal": null
+        }
+      ]
+    },
+    {
+      "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "L-Citrulline"
+        },
+        {
+          "url": "form",
+          "valueString": null
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 1500
+        },
+        {
+          "url": "unit",
+          "valueString": "mg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueDecimal": null
+        }
+      ]
+    },
+    {
+      "url": "https://summitindins.com/hl7-fhir-custom-extension-index/nutrients",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Vitamin B12"
+        },
+        {
+          "url": "form",
+          "valueString": "Methylcobalamin"
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 3
+        },
+        {
+          "url": "unit",
+          "valueString": "mg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueDecimal": 125000
+        }
+      ]
+    },
+    {
+      "url": "https://summitindins.com/hl7-fhir-custom-extension-index/nutrients",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Proprietary Enzyme Blend"
+        },
+        {
+          "url": "form",
+          "extension": [
+            {
+              "url": "name",
+              "valueString": "Bromelain"
+            },
+            {
+              "url": "name",
+              "valueString": "Protease 6.0"
+            },
+            {
+              "url": "name",
+              "valueString": "Protease 4.5"
+            },
+            {
+              "url": "name",
+              "valueString": "Lipase"
+            }
+          ]
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 668
+        },
+        {
+          "url": "unit",
+          "valueString": "mg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueString": null
+        }
+      ]
+    },
+    {
+      "url": "Other Ingredients",
+      "extension": [
+        {
+          "url": "https://summitindins.com/hl7-fhir-custom-extension-index/nutrients",
+          "extension": [
+            {
+              "url": "name",
+              "valueString": "Rice Flour"
+            }
+          ]
+        },
+        {
+          "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+          "extension": [
+            {
+              "url": "name",
+              "valueString": "Microcrystalline Cellulose"
+            },
+            {
+              "url": "name",
+              "valueString": "Hypromellose"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

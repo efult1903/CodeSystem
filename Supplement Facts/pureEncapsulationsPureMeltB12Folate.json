@@ -1,0 +1,143 @@
+{
+  "resourceType": "NutritionProduct",
+  "id": "pure-encapsulations-puremelt-b12-folate",
+  "status": "active",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Pure Encapsulations PureMelt B12 Folate Nutrition Product</div>"
+  },
+  "productName": "Pure Encapsulations PureMelt B12 Folate",
+  "extension": [
+    {
+      "url": "https://summitindins.com/hl7-fhir-custom-extension-index/serving-size",
+      "valueString": "lozenge",
+      "amount": 1
+    },
+    {
+      "url": "servingsPerContainer",
+      "valueString": 90
+    },
+    {
+      "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Folate"
+        },
+        {
+          "url": "form",
+          "valueString": "Metafolin, L-5-MTHF"
+        },
+        {
+          "url": "chemicalContent",
+          "extension": [
+            {
+              "url": "amount",
+              "valueDecimal": 400
+            },
+            {
+              "url": "unit",
+              "valueString": "mcg"
+            }
+          ]
+        },
+        {
+          "url": "dietaryEquivalency",
+          "extension": [
+            {
+              "url": "amount",
+              "valueDecimal": 667
+            },
+            {
+              "url": "unit",
+              "valueString": "mcg"
+            },
+            {
+              "url": "equivalency",
+              "valueString": "DFE"
+            }
+          ]
+        },
+        {
+          "url": "percentDailyValue",
+          "valueDecimal": 167
+        }
+      ]
+    },
+    {
+      "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Vitamin B12"
+        },
+        {
+          "url": "form",
+          "valueString": "Methylcobalamin"
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 1000
+        },
+        {
+          "url": "unit",
+          "valueString": "mcg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueDecimal": 41667
+        }
+      ]
+    },
+    {
+      "url": "Other Ingredients",
+      "extension": [
+        {
+          "url": "https://summitindins.com/hl7-fhir-custom-extension-index/nutrients",
+          "extension": [
+            {
+              "url": "name",
+              "valueString": "natural berry"
+            },
+            {
+              "url": "name",
+              "valueString": {
+                "main": "flavor",
+                "sub": "cherry, vanilla"
+              }
+            },
+            {
+              "url": "name",
+              "valueString": "malic acid"
+            }
+          ]
+        },
+        {
+          "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+          "extension": [
+            {
+              "url": "name",
+              "valueString": "xylitol"
+            },
+            {
+              "url": "name",
+              "valueString": "mannitol"
+            },
+            {
+              "url": "name",
+              "valueString": "carboxymethyl cellulose"
+            },
+            {
+              "url": "name",
+              "valueString": "cellulose"
+            },
+            {
+              "url": "name",
+              "valueString": "ascorbyl palmitate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

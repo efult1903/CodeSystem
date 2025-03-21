@@ -1,0 +1,223 @@
+{
+  "resourceType": "NutritionProduct",
+  "id": "nuphoria-gold",
+  "status": "active",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Thorne Methyl-Guard Plus Nutrition Product</div>"
+  },
+  "productName": "NUPHORIA cm® Gold Maximum Strength",
+  "extension": [
+    {
+      "url": "https://summitindins.com/hl7-fhir-custom-extension-index/serving-size",
+      "valueString": "capsule",
+      "amount": 4
+    },
+    {
+      "url": "servingsPerContainer",
+      "valueString": 30
+    },
+    {
+      "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Riboflavin"
+        },
+        {
+          "url": "form",
+          "valueString": null
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 6
+        },
+        {
+          "url": "unit",
+          "valueString": "mg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueDecimal": 462
+        }
+      ]
+    },
+    {
+      "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Vitamin B6"
+        },
+        {
+          "url": "form",
+          "valueString": "Pyridoxal 5'-Phosphate"
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 80
+        },
+        {
+          "url": "unit",
+          "valueString": "mg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueDecimal": 4706
+        }
+      ]
+    },
+    {
+      "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Folate"
+        },
+        {
+          "url": "form",
+          "valueString": "5-MTHF"
+        },
+        {
+          "url": "chemicalContent",
+          "extension": [
+            {
+              "url": "amount",
+              "valueDecimal": 666
+            },
+            {
+              "url": "unit",
+              "valueString": "mg"
+            },
+            {
+              "url": "equivalency",
+              "valueString": "DFE"
+            }
+          ]
+        },
+        {
+          "url": "percentDailyValue",
+          "valueDecimal": 167
+        }
+      ]
+    },
+    {
+      "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Vitamin B12"
+        },
+        {
+          "url": "form",
+          "valueString": "Methylcobalamin"
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 3000
+        },
+        {
+          "url": "unit",
+          "valueString": "mcg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueDecimal": 125000
+        }
+      ]
+    },
+    {
+      "url": "https://summitindins.com/hl7-fhir-custom-extension-index/nutrients",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Calcium"
+        },
+        {
+          "url": "form",
+          "valueString": "Calcium Citrate"
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 18
+        },
+        {
+          "url": "unit",
+          "valueString": "mg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueString": 1
+        }
+      ]
+    },
+    {
+      "url": "https://summitindins.com/hl7-fhir-custom-extension-index/nutrients",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Manganese"
+        },
+        {
+          "url": "form",
+          "valueString": "Manganese Gluconate"
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 1.76
+        },
+        {
+          "url": "unit",
+          "valueString": "mg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueString": 77
+        }
+      ]
+    },
+    {
+      "url": "https://summitindins.com/hl7-fhir-custom-extension-index/nutrients",
+      "extension": [
+        {
+          "url": "name",
+          "valueString": "Chromium"
+        },
+        {
+          "url": "form",
+          "valueString": "Chromium Picolinate"
+        },
+        {
+          "url": "amount",
+          "valueDecimal": 2.88
+        },
+        {
+          "url": "unit",
+          "valueString": "mcg"
+        },
+        {
+          "url": "percentDailyValue",
+          "valueString": 8
+        }
+      ]
+    },
+    {
+      "url": "Other Ingredients",
+      "extension": [
+        {
+          "url": "https://hl7.org/fhir/valueset-nutrition-product-nutrient.html",
+          "extension": [
+            {
+              "url": "name",
+              "valueString": "Cellulose"
+            },
+            {
+              "url": "name",
+              "valueString": "Leucine"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
