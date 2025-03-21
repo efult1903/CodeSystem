@@ -27,6 +27,36 @@
       "code": "calcium-laurate",
       "display": "Calcium Laurate",
       "definition": "A calcium salt of lauric acid used in nutritional supplements."
+    },
+    {
+      "code": "natural-berry",
+      "display": "Natural Berry",
+      "definition": "Berries used in the production of pharmaceuticals or dietary supplements."
+    },
+    {
+      "code": "flavor",
+      "display": "Flavor",
+      "definition": "A natural or artificial additive used to improve the taste or smell of a product."
+    },
+    {
+      "code": "malic-acid",
+      "display": "Malic acid",
+      "definition": "A naturally occurring dicarboxylic acid, typically used as an excipient."
+    },
+    {
+      "code": "rice-flour",
+      "display": "Rice Flour",
+      "definition": "a finely milled powder made from rice, typically used as an excipient."
+    },
+    {
+      "code": "manganese",
+      "display": "Manganese",
+      "definition": "An essential trace element that helps the body form connective tissue, bones, blood clotting factors, and sex hormones."
+    },
+    {
+      "code": "chromium",
+      "display": "Chromium",
+      "definition": "A mineral that plays an important role in supporting your metabolism and maintaining brain health."
     }
   ]
 }
